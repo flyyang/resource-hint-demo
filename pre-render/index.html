@@ -1,0 +1,24 @@
+<html>
+
+<head>
+  <link rel="preconnect" href="https://cdn.bootcss.com">
+  <link rel="preconnect" href="https://lib.baomitu.com">
+  <link rel="preconnect" href="http://libs.baidu.com">
+  <link rel="preconnect" href="https://s.h2.pdim.gs">
+
+  <link rel="prerender" href="http://localhost:8000/render.html">
+
+</head>
+
+<body>
+  <div>test pre-connect</div>
+  <button id="jump"> jump </button>
+  <script src="https://lib.baomitu.com/zepto/1.2.0/zepto.js"></script>
+  <script src="http://libs.baidu.com/backbone/0.9.2/backbone-min.js"></script>
+  <script src="https://s.h2.pdim.gs/static/4347a5cfa17f7e36/panda-monitor-3.1.4.js"></script>
+  <script>
+    $('#jump').click(() => { window.location.href = './render.html' })
+  </script>
+</body>
+
+</html>
